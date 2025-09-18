@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 .navbar{
@@ -88,4 +88,78 @@ nav a:hover{
 }
   .container1{
  background: radial-gradient(#FFCBA4,#FFDDCA);
+ padding-left: 25px;
+ padding-right: 25px;
   } 
+  .row .col-4{
+    flex-basis: 20%;
+    min-width: 250px;
+    align-items:center ;
+    justify-items: center;
+    transition: 0.5s ease;
+  }
+  .col-4 h3{
+    color: chocolate;
+    text-align: left;
+    font-size: 21px;
+  }
+.col-4 p{
+    color: crimson;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 0px;
+}
+.col-4 .img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 20px;
+    background: aquamarine;
+}
+.col-4 .star{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    position: relative;
+    left: 70px;
+    top:-30px;
+}
+.container2{
+    padding-left: 40px;
+    background-color: aquamarine;
+}
+.container2 h1{
+    padding: 20px 0;
+    color: crimson;
+    font-size: 40px;
+    text-align: center;
+}
+footer .img{
+    height:30px;
+    width: auto;
+    padding-right:30px ;
+    position: relative;
+    left: 560px;
+}
+.container3 h2{
+    padding: 20px 0;
+    text-align: center;
+}
+ .container3{
+    background:radial-gradient(dimgrey,#D8BFD8);
+ }
+ .container3 p{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0;
+ }
+ .container2 a{
+    color: crimson;
+    text-decoration: none;
+ }
+ .container2 .col-4:hover{
+transform: scaleX(1.1);
+ }
+ .container3 .img:hover{
+   transform: scaleY(1.2);
+ }
