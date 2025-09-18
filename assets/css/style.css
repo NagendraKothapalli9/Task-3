@@ -74,13 +74,15 @@ nav a:hover{
 .container{
     background: radial-gradient(#F2A2E8,#E1D9D1);
 }
-.row .col-3{
-    flex-basis: 30%;
+ .col-3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 25%;
     min-width: 300px;
 }
 .col-3 img{
-    width: 100%;
-    height: 200px;
+    width:  auto;
+    height: 400px;
     margin: 50px 0px;
 }
   .container1{
@@ -91,13 +93,12 @@ nav a:hover{
   .row .col-4{
     flex-basis: 20%;
     min-width: 250px;
-    align-items:center ;
-    justify-items: center;
     transition: 0.5s ease;
+    justify-content: space-evenly;
   }
   .col-4 h3{
     color: chocolate;
-    text-align: left;
+    text-align: center;
     font-size: 21px;
   }
 .col-4 p{
@@ -107,8 +108,8 @@ nav a:hover{
     padding-top: 0px;
 }
 .col-4 .img{
-    width: 200px;
-    height: 200px;
+    width: auto;
+    height: 230px;
     position: relative;
     left: 20px;
     background: aquamarine;
